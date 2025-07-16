@@ -10,7 +10,7 @@ for x in range(0,limit,1):
     print("#")
     times += 1
     if position == 5:
-        for x in range(0,5,1):
+        for x in range(0,4,1):
             space = space.replace(" ", "",1)
             position -=1
             times += 1
