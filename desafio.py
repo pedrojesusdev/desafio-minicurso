@@ -16,5 +16,7 @@ for x in range(0,limit,1):
             times += 1
             print(space, end="")
             print("#")
+            if times == limit:
+                break
     if times == limit:
         break
